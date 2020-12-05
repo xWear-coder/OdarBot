@@ -30,7 +30,7 @@ fs.readdir("./cmds", (err, files) => {
 });
 
 bot.on("ready", async () => {
-console.log(`Bots is ready and working in ${bot.guilds.size} servers with ${bot.users.size} users!`);
+console.log(`Bot's is ready and working in ${bot.guilds.size} servers with ${bot.users.size} users!`);
     
     dbl.postStats(bot.guilds.size);
  
